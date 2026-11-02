@@ -1,0 +1,414 @@
+{
+  "slots": [
+    {
+      "id": "rod",
+      "name": "Rod",
+      "stat_desc": "Power: strike strength and casting reach.",
+      "tiers": [
+        {
+          "name": "Willow Switch",
+          "cost": 0,
+          "power": 10,
+          "control": 10,
+          "reach": 3,
+          "color": "#8f5d32",
+          "accent": "#d4a46a"
+        },
+        {
+          "name": "Ash Rod",
+          "cost": 140,
+          "power": 14,
+          "control": 13,
+          "reach": 4,
+          "color": "#b98a52",
+          "accent": "#f0d29a"
+        },
+        {
+          "name": "Heron Rod",
+          "cost": 420,
+          "power": 20,
+          "control": 16,
+          "reach": 5,
+          "color": "#3d7a8f",
+          "accent": "#a8e0e8"
+        },
+        {
+          "name": "Moonwood Rod",
+          "cost": 1100,
+          "power": 28,
+          "control": 19,
+          "reach": 6,
+          "color": "#4b3a7a",
+          "accent": "#c9b5ff"
+        },
+        {
+          "name": "Pondlight Rod",
+          "cost": 2200,
+          "power": 40,
+          "control": 22,
+          "reach": 6,
+          "color": "#1f6b3c",
+          "accent": "#ffd25a"
+        },
+        {
+          "name": "Ironbark Rod",
+          "cost": 4800,
+          "power": 56,
+          "control": 26,
+          "reach": 7,
+          "color": "#5a4a3a",
+          "accent": "#e2433a"
+        },
+        {
+          "name": "Stormglass Rod",
+          "cost": 10500,
+          "power": 80,
+          "control": 30,
+          "reach": 7,
+          "color": "#2a7fa3",
+          "accent": "#e2f8ff"
+        },
+        {
+          "name": "Coral Crown Rod",
+          "cost": 23000,
+          "power": 115,
+          "control": 34,
+          "reach": 8,
+          "color": "#c9406a",
+          "accent": "#ffd04a"
+        },
+        {
+          "name": "Leviathan Rod",
+          "cost": 52000,
+          "power": 165,
+          "control": 38,
+          "reach": 9,
+          "color": "#14304a",
+          "accent": "#7affc8"
+        },
+        {
+          "name": "Starforged Rod",
+          "cost": 120000,
+          "power": 240,
+          "control": 42,
+          "reach": 9,
+          "color": "#1c1d26",
+          "accent": "#fff0a0"
+        }
+      ]
+    },
+    {
+      "id": "reel",
+      "name": "Reel",
+      "stat_desc": "Reel: progress while you hold.",
+      "tiers": [
+        {
+          "name": "Tin Reel",
+          "cost": 0,
+          "reel": 10,
+          "color": "#8a8f96"
+        },
+        {
+          "name": "Brass Reel",
+          "cost": 120,
+          "reel": 14,
+          "color": "#c9973a"
+        },
+        {
+          "name": "Copper Reel",
+          "cost": 380,
+          "reel": 20,
+          "color": "#c0643a"
+        },
+        {
+          "name": "Silverleaf Reel",
+          "cost": 1000,
+          "reel": 28,
+          "color": "#c8d4dc"
+        },
+        {
+          "name": "Sunwheel Reel",
+          "cost": 2000,
+          "reel": 40,
+          "color": "#ffcf4a"
+        },
+        {
+          "name": "Tidewheel Reel",
+          "cost": 4400,
+          "reel": 56,
+          "color": "#46c1ad"
+        },
+        {
+          "name": "Thunder Reel",
+          "cost": 9800,
+          "reel": 80,
+          "color": "#5a7db0"
+        },
+        {
+          "name": "Pearl Reel",
+          "cost": 21000,
+          "reel": 115,
+          "color": "#f4f0ff"
+        },
+        {
+          "name": "Abyss Winch",
+          "cost": 48000,
+          "reel": 165,
+          "color": "#2c406f"
+        },
+        {
+          "name": "Starcore Reel",
+          "cost": 110000,
+          "reel": 240,
+          "color": "#fff0a0"
+        }
+      ]
+    },
+    {
+      "id": "line",
+      "name": "Line",
+      "stat_desc": "Line: how much tension it takes before snapping.",
+      "tiers": [
+        {
+          "name": "Cotton Line",
+          "cost": 0,
+          "line": 100,
+          "control": 0,
+          "color": "#e8e2d0"
+        },
+        {
+          "name": "Hemp Line",
+          "cost": 110,
+          "line": 140,
+          "control": 1,
+          "color": "#d9c79a"
+        },
+        {
+          "name": "Silk Line",
+          "cost": 360,
+          "line": 200,
+          "control": 2,
+          "color": "#f4f0ff"
+        },
+        {
+          "name": "Spider Line",
+          "cost": 950,
+          "line": 280,
+          "control": 3,
+          "color": "#d8f4ff"
+        },
+        {
+          "name": "Starthread",
+          "cost": 1900,
+          "line": 400,
+          "control": 4,
+          "color": "#fff3b0"
+        },
+        {
+          "name": "Steelweave Line",
+          "cost": 4200,
+          "line": 560,
+          "control": 5,
+          "color": "#b0b7bd"
+        },
+        {
+          "name": "Dragonhair Line",
+          "cost": 9400,
+          "line": 800,
+          "control": 6,
+          "color": "#ff9a3c"
+        },
+        {
+          "name": "Sea-silk Line",
+          "cost": 20000,
+          "line": 1150,
+          "control": 7,
+          "color": "#7fdcc2"
+        },
+        {
+          "name": "Kraken Sinew",
+          "cost": 46000,
+          "line": 1650,
+          "control": 8,
+          "color": "#c983ff"
+        },
+        {
+          "name": "Eternal Thread",
+          "cost": 105000,
+          "line": 2400,
+          "control": 10,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "id": "charm",
+      "name": "Charm",
+      "stat_desc": "Luck: rarer catches, bigger fish, more treasure.",
+      "tiers": [
+        {
+          "name": "Plain Cord",
+          "cost": 0,
+          "luck": 0
+        },
+        {
+          "name": "Clover Knot",
+          "cost": 180,
+          "luck": 4
+        },
+        {
+          "name": "River Pearl",
+          "cost": 550,
+          "luck": 8
+        },
+        {
+          "name": "Owl Feather",
+          "cost": 1500,
+          "luck": 12
+        },
+        {
+          "name": "Moon Pendant",
+          "cost": 3200,
+          "luck": 16
+        },
+        {
+          "name": "Jade Koi",
+          "cost": 7000,
+          "luck": 20
+        },
+        {
+          "name": "Thunderbird Talon",
+          "cost": 15000,
+          "luck": 25
+        },
+        {
+          "name": "Mermaid Scale",
+          "cost": 33000,
+          "luck": 30
+        },
+        {
+          "name": "Abyss Eye",
+          "cost": 72000,
+          "luck": 35
+        },
+        {
+          "name": "Star of Pondlight",
+          "cost": 160000,
+          "luck": 40
+        }
+      ]
+    }
+  ],
+  "bait": [
+    {
+      "id": "worm",
+      "name": "Worm",
+      "desc": "Free, balanced, never runs out.",
+      "cost": 0,
+      "pack": 0,
+      "wait_mult": 1.0,
+      "mastery_bonus": 0,
+      "ponds": [],
+      "species_mult_rare": 1.0,
+      "icon": "bait_worm",
+      "treasure_mult": 1.0
+    },
+    {
+      "id": "golden_larva",
+      "name": "Golden Larva",
+      "desc": "+3 mastery levels for rarity rolls. Rare species bite more.",
+      "cost": 45,
+      "pack": 5,
+      "wait_mult": 1.0,
+      "mastery_bonus": 3,
+      "ponds": [],
+      "species_mult_rare": 1.35,
+      "icon": "bait_larva",
+      "treasure_mult": 1.0
+    },
+    {
+      "id": "moss_grub",
+      "name": "Moss Grub",
+      "desc": "Shade & moss lovers bite more. Faster bites.",
+      "cost": 30,
+      "pack": 5,
+      "wait_mult": 0.75,
+      "mastery_bonus": 0,
+      "ponds": [],
+      "species_mult_rare": 1.0,
+      "icon": "bait_grub",
+      "treasure_mult": 1.0
+    },
+    {
+      "id": "frost_bait",
+      "name": "Frost Bait",
+      "desc": "Frostmere only: much faster bites, +2 mastery levels.",
+      "cost": 40,
+      "pack": 5,
+      "wait_mult": 0.6,
+      "mastery_bonus": 2,
+      "ponds": [
+        "frostmere"
+      ],
+      "species_mult_rare": 1.0,
+      "icon": "bait_frost",
+      "treasure_mult": 1.0
+    },
+    {
+      "id": "river_shrimp",
+      "name": "River Shrimp",
+      "desc": "Emerald Delta only: faster bites, +2 mastery levels.",
+      "cost": 450,
+      "pack": 5,
+      "wait_mult": 0.6,
+      "mastery_bonus": 2,
+      "ponds": [
+        "delta"
+      ],
+      "species_mult_rare": 1.0,
+      "treasure_mult": 1.0,
+      "icon": "bait_shrimp"
+    },
+    {
+      "id": "deep_squid",
+      "name": "Deep Squid",
+      "desc": "Leviathan Trench only: faster bites, +3 mastery levels.",
+      "cost": 1800,
+      "pack": 5,
+      "wait_mult": 0.6,
+      "mastery_bonus": 3,
+      "ponds": [
+        "trench"
+      ],
+      "species_mult_rare": 1.0,
+      "treasure_mult": 1.0,
+      "icon": "bait_squid"
+    },
+    {
+      "id": "monster_chum",
+      "name": "Monster Chum",
+      "desc": "Giants and legends bite far more often. Slower bites.",
+      "cost": 4000,
+      "pack": 3,
+      "wait_mult": 1.3,
+      "mastery_bonus": 0,
+      "ponds": [],
+      "species_mult_rare": 2.4,
+      "treasure_mult": 1.0,
+      "icon": "bait_chum"
+    },
+    {
+      "id": "lucky_fly",
+      "name": "Lucky Fly",
+      "desc": "Triples the chance of hooking a treasure chest.",
+      "cost": 220,
+      "pack": 5,
+      "wait_mult": 1.0,
+      "mastery_bonus": 1,
+      "ponds": [],
+      "species_mult_rare": 1.0,
+      "treasure_mult": 3.0,
+      "icon": "bait_fly"
+    }
+  ]
+}

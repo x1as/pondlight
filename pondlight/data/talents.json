@@ -1,0 +1,189 @@
+{
+  "sectors": [
+    {
+      "id": "cast",
+      "name": "Casting",
+      "icon": "rod",
+      "talents": [
+        {
+          "id": "steady_hands",
+          "name": "Steady Hands",
+          "desc": "Perfect cast zone +1.2% per level",
+          "effect": "perfect_zone",
+          "per": 0.012,
+          "max": 10,
+          "cost": 60,
+          "growth": 1.6
+        },
+        {
+          "id": "slow_tempo",
+          "name": "Calm Tempo",
+          "desc": "Cast meter moves 3.5% slower per level",
+          "effect": "charge_slow",
+          "per": 0.035,
+          "max": 10,
+          "cost": 50,
+          "growth": 1.6
+        },
+        {
+          "id": "long_arm",
+          "name": "Long Arm",
+          "desc": "+1 casting reach per level (rows further out)",
+          "effect": "reach",
+          "per": 1,
+          "max": 2,
+          "cost": 9000,
+          "growth": 4.0
+        }
+      ]
+    },
+    {
+      "id": "patience",
+      "name": "Patience",
+      "icon": "moon",
+      "talents": [
+        {
+          "id": "quick_bites",
+          "name": "Quick Bites",
+          "desc": "Fish bite 4% sooner per level",
+          "effect": "wait",
+          "per": 0.04,
+          "max": 10,
+          "cost": 80,
+          "growth": 1.6
+        },
+        {
+          "id": "keen_eye",
+          "name": "Keen Eye",
+          "desc": "+0.08 s to react to a bite per level",
+          "effect": "bite_window",
+          "per": 0.08,
+          "max": 10,
+          "cost": 45,
+          "growth": 1.55
+        },
+        {
+          "id": "fish_whisperer",
+          "name": "Fish Whisperer",
+          "desc": "Rare species bite 6% more often per level",
+          "effect": "rare_bite",
+          "per": 0.06,
+          "max": 10,
+          "cost": 300,
+          "growth": 1.65
+        }
+      ]
+    },
+    {
+      "id": "fight",
+      "name": "Fighting",
+      "icon": "line",
+      "talents": [
+        {
+          "id": "strong_reel",
+          "name": "Strong Reel",
+          "desc": "Reeling progress +4% per level",
+          "effect": "reel",
+          "per": 0.04,
+          "max": 10,
+          "cost": 90,
+          "growth": 1.65
+        },
+        {
+          "id": "sharp_hook",
+          "name": "Sharp Hook",
+          "desc": "Strike progress +4% per level",
+          "effect": "strike",
+          "per": 0.04,
+          "max": 10,
+          "cost": 90,
+          "growth": 1.65
+        },
+        {
+          "id": "soft_hands",
+          "name": "Soft Hands",
+          "desc": "Line tension eases 5% faster per level",
+          "effect": "decay",
+          "per": 0.05,
+          "max": 10,
+          "cost": 70,
+          "growth": 1.6
+        },
+        {
+          "id": "anglers_might",
+          "name": "Angler's Might",
+          "desc": "Power, Reel and Line all +3% per level",
+          "effect": "might",
+          "per": 0.03,
+          "max": 10,
+          "cost": 500,
+          "growth": 1.7
+        }
+      ]
+    },
+    {
+      "id": "trade",
+      "name": "Trade & Study",
+      "icon": "coin",
+      "talents": [
+        {
+          "id": "fishmonger",
+          "name": "Fishmonger",
+          "desc": "Fish sell for 4% more per level",
+          "effect": "sell",
+          "per": 0.04,
+          "max": 10,
+          "cost": 120,
+          "growth": 1.7
+        },
+        {
+          "id": "naturalist",
+          "name": "Naturalist",
+          "desc": "Mastery XP +6% per level",
+          "effect": "xp",
+          "per": 0.06,
+          "max": 10,
+          "cost": 100,
+          "growth": 1.7
+        },
+        {
+          "id": "lucky_charm",
+          "name": "Lucky Charm",
+          "desc": "+2 Luck per level",
+          "effect": "luck",
+          "per": 2,
+          "max": 10,
+          "cost": 200,
+          "growth": 1.65
+        }
+      ]
+    },
+    {
+      "id": "fortune",
+      "name": "Fortune",
+      "icon": "chest",
+      "talents": [
+        {
+          "id": "gamblers_nerve",
+          "name": "Gambler's Nerve",
+          "desc": "Tide of Fortune: winning waves 5% wider per level",
+          "effect": "gamble",
+          "per": 0.05,
+          "max": 10,
+          "cost": 150,
+          "growth": 1.65
+        },
+        {
+          "id": "treasure_nose",
+          "name": "Treasure Nose",
+          "desc": "+0.4% chance per level to hook a treasure chest",
+          "effect": "chest",
+          "per": 0.004,
+          "max": 10,
+          "cost": 200,
+          "growth": 1.65
+        }
+      ]
+    }
+  ]
+}

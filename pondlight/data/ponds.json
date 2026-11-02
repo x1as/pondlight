@@ -1,0 +1,447 @@
+{
+  "ponds": [
+    {
+      "id": "willow",
+      "name": "Willow Pond",
+      "subtitle": "A quiet pond under old willows",
+      "grid_origin": [
+        80,
+        30
+      ],
+      "cell_size": [
+        60,
+        42
+      ],
+      "layout": [
+        ".tt~~rr.",
+        "mtt=~~pr",
+        "mm~==~pp",
+        "nm~===kk",
+        "nn~~=~k.",
+        ".r~DD~r."
+      ],
+      "dock_tip": [
+        322,
+        246
+      ],
+      "rod_base": [
+        520,
+        384
+      ],
+      "weathers": [
+        "clear",
+        "rain"
+      ],
+      "music": "music_willow",
+      "ambient": "amb_forest",
+      "weather_ambient": {
+        "rain": "amb_rain"
+      },
+      "unlock": null,
+      "water": null,
+      "fx": [
+        "leaves",
+        "fireflies",
+        "ripples"
+      ],
+      "lamps": [],
+      "holes": false,
+      "reach_offset": 0,
+      "chest_coins": [
+        40,
+        120
+      ],
+      "trap_per_hour": 150
+    },
+    {
+      "id": "frostmere",
+      "name": "Frostmere Lake",
+      "subtitle": "A frozen lake beneath the peaks",
+      "grid_origin": [
+        80,
+        50
+      ],
+      "cell_size": [
+        60,
+        40
+      ],
+      "layout": [
+        "..#v#c#.",
+        ".#O##o#.",
+        "#o##O#v#",
+        "#c#o##O#",
+        ".#o#v#c.",
+        "..#DD#.."
+      ],
+      "dock_tip": [
+        322,
+        256
+      ],
+      "rod_base": [
+        520,
+        388
+      ],
+      "weathers": [
+        "clear",
+        "snow"
+      ],
+      "music": "music_frost",
+      "ambient": "amb_winter",
+      "weather_ambient": {
+        "snow": "amb_winter"
+      },
+      "unlock": {
+        "species_of": "willow",
+        "coins": 2500
+      },
+      "water": [
+        "#bde8f5",
+        "#56a9cc",
+        "#e2f8ff"
+      ],
+      "fx": [
+        "fog",
+        "aurora"
+      ],
+      "lamps": [
+        [
+          296,
+          207
+        ],
+        [
+          344,
+          207
+        ],
+        [
+          79,
+          273
+        ],
+        [
+          95,
+          282
+        ]
+      ],
+      "holes": true,
+      "reach_offset": 0,
+      "chest_coins": [
+        150,
+        400
+      ],
+      "trap_per_hour": 500
+    },
+    {
+      "id": "delta",
+      "name": "Emerald Delta",
+      "subtitle": "A flooded rainforest river",
+      "grid_origin": [
+        80,
+        44
+      ],
+      "cell_size": [
+        60,
+        41
+      ],
+      "layout": [
+        "VBBRRBBV",
+        "FVBBBBVF",
+        "FFMBBMFF",
+        "RMMVVMMR",
+        ".FMMMMF.",
+        "..MDDM.."
+      ],
+      "dock_tip": [
+        322,
+        262
+      ],
+      "rod_base": [
+        520,
+        388
+      ],
+      "weathers": [
+        "clear",
+        "rain"
+      ],
+      "music": "music_delta",
+      "ambient": "amb_jungle",
+      "weather_ambient": {
+        "rain": "amb_rain"
+      },
+      "unlock": {
+        "species_of": "frostmere",
+        "coins": 18000
+      },
+      "water": [
+        "#8fd67a",
+        "#2f8a5a",
+        "#d8f4b0"
+      ],
+      "fx": [
+        "fireflies",
+        "ripples",
+        "mist"
+      ],
+      "lamps": [
+        [
+          300,
+          222
+        ],
+        [
+          344,
+          222
+        ]
+      ],
+      "holes": false,
+      "reach_offset": 2,
+      "chest_coins": [
+        600,
+        1500
+      ],
+      "trap_per_hour": 1600
+    },
+    {
+      "id": "trench",
+      "name": "Leviathan Trench",
+      "subtitle": "Open sea above a bottomless abyss",
+      "grid_origin": [
+        80,
+        44
+      ],
+      "cell_size": [
+        60,
+        41
+      ],
+      "layout": [
+        "AAAXXAAA",
+        "WAKXXKAW",
+        "WKKCCKKW",
+        "CCSXXSCC",
+        ".CSSSSC.",
+        "..SDDS.."
+      ],
+      "dock_tip": [
+        322,
+        262
+      ],
+      "rod_base": [
+        520,
+        388
+      ],
+      "weathers": [
+        "clear",
+        "rain"
+      ],
+      "music": "music_trench",
+      "ambient": "amb_sea",
+      "weather_ambient": {
+        "rain": "amb_rain"
+      },
+      "unlock": {
+        "species_of": "delta",
+        "coins": 80000
+      },
+      "water": [
+        "#5fb8d8",
+        "#1a5a8a",
+        "#e2f8ff"
+      ],
+      "fx": [
+        "ripples",
+        "abyss"
+      ],
+      "lamps": [
+        [
+          300,
+          222
+        ],
+        [
+          344,
+          222
+        ]
+      ],
+      "holes": false,
+      "reach_offset": 3,
+      "chest_coins": [
+        2500,
+        6000
+      ],
+      "trap_per_hour": 5000
+    }
+  ],
+  "spot_types": {
+    "~": {
+      "name": "Open Sun",
+      "hint": "Sunny shallows - lively, small fish",
+      "fishable": true,
+      "color": "#7fdcc2",
+      "short": "Sun"
+    },
+    "=": {
+      "name": "Deep Water",
+      "hint": "Deep-water species prowl here",
+      "fishable": true,
+      "color": "#165a78",
+      "short": "Deep"
+    },
+    "m": {
+      "name": "Moss Bank",
+      "hint": "Cool moss - shade-loving activity",
+      "fishable": true,
+      "color": "#86dc4c",
+      "short": "Moss"
+    },
+    "p": {
+      "name": "Lily Pads",
+      "hint": "Small fish hide between the pads",
+      "fishable": true,
+      "color": "#56c043",
+      "short": "Lilies"
+    },
+    "r": {
+      "name": "Reed Bed",
+      "hint": "Reeds full of insects - hunters nearby",
+      "fishable": true,
+      "color": "#bdf06a",
+      "short": "Reeds"
+    },
+    "t": {
+      "name": "Willow Shade",
+      "hint": "Dim and cool under the canopy",
+      "fishable": true,
+      "color": "#2a8536",
+      "short": "Shade"
+    },
+    "k": {
+      "name": "Stones",
+      "hint": "Rocks and gravel - ambush spots",
+      "fishable": true,
+      "color": "#8a919a",
+      "short": "Stones"
+    },
+    "n": {
+      "name": "Roots & Timber",
+      "hint": "Sunken roots - eels love cover",
+      "fishable": true,
+      "color": "#946036",
+      "short": "Roots"
+    },
+    "D": {
+      "name": "Dock",
+      "hint": "",
+      "fishable": false,
+      "color": "#8c592d",
+      "short": ""
+    },
+    "#": {
+      "name": "Thick Ice",
+      "hint": "Too thick to fish through",
+      "fishable": false,
+      "color": "#bde8f5",
+      "short": ""
+    },
+    "o": {
+      "name": "Ice Hole",
+      "hint": "Shallow hole - quick small fish",
+      "fishable": true,
+      "color": "#8fd0e8",
+      "short": "Hole"
+    },
+    "O": {
+      "name": "Deep Hole",
+      "hint": "Black water far below - giants",
+      "fishable": true,
+      "color": "#165a78",
+      "short": "Deep"
+    },
+    "v": {
+      "name": "Pine Shadow Hole",
+      "hint": "Shaded by pines - ambush hunters",
+      "fishable": true,
+      "color": "#287063",
+      "short": "Pines"
+    },
+    "c": {
+      "name": "Ridge Hole",
+      "hint": "Beside boulders - strong swimmers",
+      "fishable": true,
+      "color": "#8a919a",
+      "short": "Ridge"
+    },
+    "V": {
+      "name": "Giant Lilies",
+      "hint": "Pads wide as a table - bass hide below",
+      "fishable": true,
+      "color": "#7fdc5a",
+      "short": "Lilies"
+    },
+    "F": {
+      "name": "Flooded Roots",
+      "hint": "Drowned forest - leapers and shockers",
+      "fishable": true,
+      "color": "#946036",
+      "short": "Roots"
+    },
+    "M": {
+      "name": "Muddy Channel",
+      "hint": "Warm brown water - shoals of biters",
+      "fishable": true,
+      "color": "#c9a05a",
+      "short": "Mud"
+    },
+    "B": {
+      "name": "Blackwater",
+      "hint": "Dark, deep and still - river giants",
+      "fishable": true,
+      "color": "#1d3a2a",
+      "short": "Black"
+    },
+    "R": {
+      "name": "Rapids",
+      "hint": "White water over stones - strong swimmers",
+      "fishable": true,
+      "color": "#e2f8ff",
+      "short": "Rapids"
+    },
+    "S": {
+      "name": "Sandbar",
+      "hint": "Bright shallows over sand",
+      "fishable": true,
+      "color": "#ecd2a0",
+      "short": "Sand"
+    },
+    "C": {
+      "name": "Coral Reef",
+      "hint": "Colourful reef edge - hunters patrol it",
+      "fishable": true,
+      "color": "#ff9a8a",
+      "short": "Coral"
+    },
+    "K": {
+      "name": "Kelp Forest",
+      "hint": "Swaying kelp - ancient things hide here",
+      "fishable": true,
+      "color": "#3a8a4a",
+      "short": "Kelp"
+    },
+    "W": {
+      "name": "Shipwreck",
+      "hint": "A sunken hull - lures glow inside",
+      "fishable": true,
+      "color": "#6b4021",
+      "short": "Wreck"
+    },
+    "X": {
+      "name": "Storm Swells",
+      "hint": "Heavy waves - the fastest fish ride them",
+      "fishable": true,
+      "color": "#a7c6e6",
+      "short": "Swells"
+    },
+    "A": {
+      "name": "The Abyss",
+      "hint": "Bottomless blue. Legends rise from here",
+      "fishable": true,
+      "color": "#0a1a3a",
+      "short": "Abyss"
+    }
+  }
+}

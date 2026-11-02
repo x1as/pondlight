@@ -1,0 +1,4 @@
+{
+  "store_url": "",
+  "store_url_note": "Fill in the real https://store.steampowered.com/app/<APP_ID>/ once the Coming Soon page exists. Empty = wishlist buttons show 'Store page coming soon'."
+}

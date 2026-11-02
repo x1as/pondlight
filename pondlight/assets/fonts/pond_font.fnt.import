@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://cwkkums1sku3s"
+path="res://.godot/imported/pond_font.fnt-10c8afc69cbec2defd5fcec58831088f.fontdata"
+
+[deps]
+
+source_file="res://assets/fonts/pond_font.fnt"
+dest_files=["res://.godot/imported/pond_font.fnt-10c8afc69cbec2defd5fcec58831088f.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

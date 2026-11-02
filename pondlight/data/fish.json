@@ -1,0 +1,1258 @@
+{
+  "fish": [
+    {
+      "id": "bluegill",
+      "pond": "willow",
+      "name": "Bluegill",
+      "desc": "A round, bright little sunfish that darts between lily stems. Easy to hook, quick to flee.",
+      "hint": "Sunny lily pads and reed beds. Most active by day.",
+      "base_weight": 0.35,
+      "min_weight": 0.12,
+      "max_weight": 0.9,
+      "base_value": 6,
+      "spawn_weight": 30,
+      "spots": {
+        "~": 1.3,
+        "=": 0.4,
+        "m": 0.5,
+        "p": 1.9,
+        "r": 1.2,
+        "t": 0.5,
+        "k": 0.4,
+        "n": 0.4
+      },
+      "time": {
+        "morning": 1.2,
+        "day": 1.4,
+        "evening": 1.0,
+        "night": 0.5
+      },
+      "weather": {
+        "clear": 1.15,
+        "rain": 0.85
+      },
+      "bait": {
+        "moss_grub": 0.9,
+        "golden_larva": 1.0,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "strength": 0.65,
+        "stamina": 0.75,
+        "marker_speed": 1.25,
+        "zone_drift": 0.15,
+        "surge_power": 0.6,
+        "states": {
+          "calm": 3,
+          "struggle": 4,
+          "surge": 1,
+          "recovery": 2
+        },
+        "state_time": [
+          1.0,
+          2.2
+        ],
+        "power": 6
+      }
+    },
+    {
+      "id": "river_perch",
+      "pond": "willow",
+      "name": "River Perch",
+      "desc": "Striped hunter of the reeds. Spiny back, orange fins and a stubborn head-shake.",
+      "hint": "Reeds and sunken rocks. Mornings and evenings.",
+      "base_weight": 0.6,
+      "min_weight": 0.2,
+      "max_weight": 1.8,
+      "base_value": 10,
+      "spawn_weight": 22,
+      "spots": {
+        "~": 0.9,
+        "=": 0.8,
+        "m": 0.6,
+        "p": 0.7,
+        "r": 2.4,
+        "t": 0.6,
+        "k": 2.2,
+        "n": 1.3
+      },
+      "time": {
+        "morning": 1.4,
+        "day": 1.0,
+        "evening": 1.3,
+        "night": 0.6
+      },
+      "weather": {
+        "clear": 1.0,
+        "rain": 1.1
+      },
+      "bait": {
+        "moss_grub": 0.8,
+        "golden_larva": 1.1,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "strength": 0.85,
+        "stamina": 0.95,
+        "marker_speed": 1.1,
+        "zone_drift": 0.3,
+        "surge_power": 0.85,
+        "states": {
+          "calm": 2,
+          "struggle": 5,
+          "surge": 2,
+          "recovery": 2
+        },
+        "state_time": [
+          0.9,
+          1.8
+        ],
+        "power": 8
+      }
+    },
+    {
+      "id": "silver_carp",
+      "pond": "willow",
+      "name": "Silver Carp",
+      "desc": "Broad silver scales like old coins. It pulls long and steady rather than fast.",
+      "hint": "Deep open water and moss. Bites more in the rain.",
+      "base_weight": 3.5,
+      "min_weight": 1.0,
+      "max_weight": 9.0,
+      "base_value": 16,
+      "spawn_weight": 16,
+      "spots": {
+        "~": 1.0,
+        "=": 2.6,
+        "m": 1.3,
+        "p": 0.8,
+        "r": 0.5,
+        "t": 0.7,
+        "k": 0.5,
+        "n": 0.6
+      },
+      "time": {
+        "morning": 1.0,
+        "day": 1.1,
+        "evening": 1.1,
+        "night": 0.9
+      },
+      "weather": {
+        "clear": 0.9,
+        "rain": 1.4
+      },
+      "bait": {
+        "moss_grub": 1.2,
+        "golden_larva": 1.1,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "strength": 1.0,
+        "stamina": 1.25,
+        "marker_speed": 0.85,
+        "zone_drift": 0.1,
+        "surge_power": 0.9,
+        "states": {
+          "calm": 4,
+          "struggle": 4,
+          "surge": 1,
+          "recovery": 1
+        },
+        "state_time": [
+          1.6,
+          3.0
+        ],
+        "power": 11
+      }
+    },
+    {
+      "id": "golden_tench",
+      "pond": "willow",
+      "name": "Golden Tench",
+      "desc": "The doctor fish of old ponds: velvet gold skin, tiny red eyes, fond of cool shadow.",
+      "hint": "Loves moss mats and willow shade. Try Moss Grub.",
+      "base_weight": 2.0,
+      "min_weight": 0.8,
+      "max_weight": 5.5,
+      "base_value": 26,
+      "spawn_weight": 10,
+      "spots": {
+        "~": 0.3,
+        "=": 0.5,
+        "m": 4.0,
+        "p": 1.1,
+        "r": 0.6,
+        "t": 3.0,
+        "k": 0.4,
+        "n": 1.3
+      },
+      "time": {
+        "morning": 1.2,
+        "day": 0.8,
+        "evening": 1.3,
+        "night": 1.0
+      },
+      "weather": {
+        "clear": 1.0,
+        "rain": 1.15
+      },
+      "bait": {
+        "moss_grub": 1.9,
+        "golden_larva": 1.3,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "strength": 1.05,
+        "stamina": 1.2,
+        "marker_speed": 0.95,
+        "zone_drift": 0.2,
+        "surge_power": 1.0,
+        "states": {
+          "calm": 5,
+          "struggle": 3,
+          "surge": 2,
+          "recovery": 1
+        },
+        "state_time": [
+          1.4,
+          2.6
+        ],
+        "power": 13
+      }
+    },
+    {
+      "id": "moonlit_eel",
+      "pond": "willow",
+      "name": "Moonlit Eel",
+      "desc": "A ribbon of night with a faint silver lateral line. Twists unpredictably on the line.",
+      "hint": "Sunken rocks and shade. Much more active at night and in rain.",
+      "base_weight": 1.4,
+      "min_weight": 0.5,
+      "max_weight": 4.2,
+      "base_value": 40,
+      "spawn_weight": 8,
+      "spots": {
+        "~": 0.4,
+        "=": 0.9,
+        "m": 0.8,
+        "p": 0.4,
+        "r": 0.7,
+        "t": 1.5,
+        "k": 3.2,
+        "n": 4.5
+      },
+      "time": {
+        "morning": 0.6,
+        "day": 0.5,
+        "evening": 1.4,
+        "night": 3.0
+      },
+      "weather": {
+        "clear": 0.9,
+        "rain": 1.5
+      },
+      "bait": {
+        "moss_grub": 1.5,
+        "golden_larva": 1.2,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "strength": 1.0,
+        "stamina": 1.1,
+        "marker_speed": 1.35,
+        "zone_drift": 0.85,
+        "surge_power": 1.0,
+        "states": {
+          "calm": 2,
+          "struggle": 5,
+          "surge": 3,
+          "recovery": 1
+        },
+        "state_time": [
+          0.6,
+          1.4
+        ],
+        "power": 16
+      }
+    },
+    {
+      "id": "willow_pike",
+      "pond": "willow",
+      "name": "Ancient Willow Pike",
+      "desc": "The old queen of the pond. Long jaw, green-gold spots and terrifying bursts of speed.",
+      "hint": "Deep water and willow shade far from the dock. Dawn and dusk.",
+      "base_weight": 6.0,
+      "min_weight": 2.5,
+      "max_weight": 18.0,
+      "base_value": 60,
+      "spawn_weight": 6,
+      "spots": {
+        "~": 0.4,
+        "=": 2.8,
+        "m": 0.5,
+        "p": 0.4,
+        "r": 1.0,
+        "t": 1.9,
+        "k": 1.3,
+        "n": 1.0
+      },
+      "time": {
+        "morning": 1.6,
+        "day": 0.8,
+        "evening": 1.6,
+        "night": 1.0
+      },
+      "weather": {
+        "clear": 1.0,
+        "rain": 1.2
+      },
+      "bait": {
+        "moss_grub": 0.8,
+        "golden_larva": 1.4,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "strength": 1.25,
+        "stamina": 1.35,
+        "marker_speed": 1.05,
+        "zone_drift": 0.35,
+        "surge_power": 1.4,
+        "states": {
+          "calm": 4,
+          "struggle": 2,
+          "surge": 3,
+          "recovery": 2
+        },
+        "state_time": [
+          1.2,
+          2.4
+        ],
+        "power": 20
+      }
+    },
+    {
+      "id": "ice_minnow",
+      "pond": "frostmere",
+      "name": "Ice Minnow",
+      "desc": "Translucent as meltwater, it travels in shimmering schools beneath the ice.",
+      "hint": "Any shallow ice hole. Active through the day.",
+      "base_weight": 0.08,
+      "min_weight": 0.03,
+      "max_weight": 0.25,
+      "base_value": 24,
+      "spawn_weight": 30,
+      "spots": {
+        "o": 1.7,
+        "O": 0.5,
+        "v": 0.8,
+        "c": 0.7
+      },
+      "time": {
+        "morning": 1.2,
+        "day": 1.3,
+        "evening": 1.0,
+        "night": 0.6
+      },
+      "weather": {
+        "clear": 1.1,
+        "snow": 0.9
+      },
+      "bait": {
+        "frost_bait": 1.0,
+        "golden_larva": 1.0,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "strength": 0.75,
+        "stamina": 0.85,
+        "marker_speed": 1.45,
+        "zone_drift": 0.4,
+        "surge_power": 0.7,
+        "states": {
+          "calm": 2,
+          "struggle": 5,
+          "surge": 1,
+          "recovery": 2
+        },
+        "state_time": [
+          0.7,
+          1.4
+        ],
+        "power": 24
+      }
+    },
+    {
+      "id": "arctic_char",
+      "pond": "frostmere",
+      "name": "Arctic Char",
+      "desc": "Ember-red belly under a sky-grey back, freckled with pale spots like falling snow.",
+      "hint": "Ridge holes near the boulders. Mornings.",
+      "base_weight": 1.8,
+      "min_weight": 0.6,
+      "max_weight": 5.0,
+      "base_value": 38,
+      "spawn_weight": 22,
+      "spots": {
+        "o": 0.9,
+        "O": 1.2,
+        "v": 0.7,
+        "c": 1.8
+      },
+      "time": {
+        "morning": 1.5,
+        "day": 1.0,
+        "evening": 1.1,
+        "night": 0.7
+      },
+      "weather": {
+        "clear": 1.0,
+        "snow": 1.15
+      },
+      "bait": {
+        "frost_bait": 1.2,
+        "golden_larva": 1.1,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "strength": 1.0,
+        "stamina": 1.1,
+        "marker_speed": 1.15,
+        "zone_drift": 0.35,
+        "surge_power": 1.0,
+        "states": {
+          "calm": 3,
+          "struggle": 4,
+          "surge": 2,
+          "recovery": 2
+        },
+        "state_time": [
+          1.0,
+          2.0
+        ],
+        "power": 28
+      }
+    },
+    {
+      "id": "snow_whitefish",
+      "pond": "frostmere",
+      "name": "Snow Whitefish",
+      "desc": "A shy silver fish with a small mouth and a long patience. Heavy for its size.",
+      "hint": "Deep holes. Calm, snowy weather brings it up.",
+      "base_weight": 1.5,
+      "min_weight": 0.5,
+      "max_weight": 4.0,
+      "base_value": 60,
+      "spawn_weight": 16,
+      "spots": {
+        "o": 0.7,
+        "O": 1.8,
+        "v": 0.9,
+        "c": 0.6
+      },
+      "time": {
+        "morning": 1.0,
+        "day": 1.1,
+        "evening": 1.2,
+        "night": 0.9
+      },
+      "weather": {
+        "clear": 0.85,
+        "snow": 1.5
+      },
+      "bait": {
+        "frost_bait": 1.3,
+        "golden_larva": 1.1,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "strength": 1.05,
+        "stamina": 1.35,
+        "marker_speed": 0.9,
+        "zone_drift": 0.15,
+        "surge_power": 1.0,
+        "states": {
+          "calm": 5,
+          "struggle": 3,
+          "surge": 2,
+          "recovery": 1
+        },
+        "state_time": [
+          1.6,
+          3.0
+        ],
+        "power": 33
+      }
+    },
+    {
+      "id": "glass_pike",
+      "pond": "frostmere",
+      "name": "Glass Pike",
+      "desc": "So clear you can count its bones. It strikes from the pine shadows like a shard of ice.",
+      "hint": "Pine shadow holes. Evenings.",
+      "base_weight": 4.0,
+      "min_weight": 1.5,
+      "max_weight": 11.0,
+      "base_value": 95,
+      "spawn_weight": 10,
+      "spots": {
+        "o": 0.4,
+        "O": 1.2,
+        "v": 3.5,
+        "c": 0.9
+      },
+      "time": {
+        "morning": 0.9,
+        "day": 0.8,
+        "evening": 1.7,
+        "night": 1.2
+      },
+      "weather": {
+        "clear": 1.1,
+        "snow": 1.0
+      },
+      "bait": {
+        "frost_bait": 1.3,
+        "golden_larva": 1.3,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "strength": 1.25,
+        "stamina": 1.3,
+        "marker_speed": 1.25,
+        "zone_drift": 0.5,
+        "surge_power": 1.35,
+        "states": {
+          "calm": 3,
+          "struggle": 3,
+          "surge": 3,
+          "recovery": 2
+        },
+        "state_time": [
+          0.9,
+          1.9
+        ],
+        "power": 38
+      }
+    },
+    {
+      "id": "aurora_salmon",
+      "pond": "frostmere",
+      "name": "Aurora Salmon",
+      "desc": "Its flanks hold the colours of the northern lights. Legends say it rises when the sky glows.",
+      "hint": "Ridge holes. Far more common at night under the aurora.",
+      "base_weight": 5.0,
+      "min_weight": 2.0,
+      "max_weight": 14.0,
+      "base_value": 140,
+      "spawn_weight": 8,
+      "spots": {
+        "o": 0.5,
+        "O": 1.0,
+        "v": 1.2,
+        "c": 1.8
+      },
+      "time": {
+        "morning": 0.7,
+        "day": 0.6,
+        "evening": 1.3,
+        "night": 2.6
+      },
+      "weather": {
+        "clear": 1.2,
+        "snow": 0.9
+      },
+      "bait": {
+        "frost_bait": 1.4,
+        "golden_larva": 1.4,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "strength": 1.3,
+        "stamina": 1.4,
+        "marker_speed": 1.3,
+        "zone_drift": 0.6,
+        "surge_power": 1.3,
+        "states": {
+          "calm": 2,
+          "struggle": 4,
+          "surge": 3,
+          "recovery": 2
+        },
+        "state_time": [
+          0.8,
+          1.6
+        ],
+        "power": 44
+      }
+    },
+    {
+      "id": "frost_sturgeon",
+      "pond": "frostmere",
+      "name": "Ancient Frost Sturgeon",
+      "desc": "An armoured giant older than the lake's name. Slow, immense and almost impossible to tire.",
+      "hint": "Only the deepest holes. Any time, but it needs strong line.",
+      "base_weight": 18.0,
+      "min_weight": 8.0,
+      "max_weight": 60.0,
+      "base_value": 220,
+      "spawn_weight": 6,
+      "spots": {
+        "o": 0.2,
+        "O": 3.0,
+        "v": 0.7,
+        "c": 0.9
+      },
+      "time": {
+        "morning": 1.0,
+        "day": 1.0,
+        "evening": 1.1,
+        "night": 1.2
+      },
+      "weather": {
+        "clear": 1.0,
+        "snow": 1.1
+      },
+      "bait": {
+        "frost_bait": 1.2,
+        "golden_larva": 1.5,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "strength": 1.5,
+        "stamina": 1.6,
+        "marker_speed": 0.85,
+        "zone_drift": 0.2,
+        "surge_power": 1.6,
+        "states": {
+          "calm": 5,
+          "struggle": 2,
+          "surge": 3,
+          "recovery": 2
+        },
+        "state_time": [
+          1.6,
+          3.0
+        ],
+        "power": 52
+      }
+    },
+    {
+      "id": "piranha",
+      "name": "Red-bellied Piranha",
+      "pond": "delta",
+      "desc": "Small, fearless and always hungry. Where there is one, there are fifty.",
+      "hint": "Muddy channels and the rapids. Hungriest by day.",
+      "base_value": 70,
+      "base_weight": 1.0,
+      "min_weight": 0.3,
+      "max_weight": 3.5,
+      "spawn_weight": 30,
+      "spots": {
+        "M": 1.7,
+        "R": 1.3,
+        "F": 0.7,
+        "V": 0.8,
+        "B": 0.4
+      },
+      "time": {
+        "morning": 1.0,
+        "day": 1.3,
+        "evening": 1.0,
+        "night": 0.7
+      },
+      "weather": {
+        "clear": 1.1,
+        "rain": 0.9
+      },
+      "bait": {
+        "river_shrimp": 1.2,
+        "golden_larva": 1.0,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "power": 60,
+        "strength": 1.0,
+        "stamina": 0.85,
+        "marker_speed": 1.5,
+        "zone_drift": 0.45,
+        "surge_power": 0.8,
+        "states": {
+          "calm": 2,
+          "struggle": 6,
+          "surge": 2,
+          "recovery": 1
+        },
+        "state_time": [
+          0.6,
+          1.3
+        ]
+      }
+    },
+    {
+      "id": "peacock_bass",
+      "name": "Peacock Bass",
+      "pond": "delta",
+      "desc": "A golden brawler with a false eye on its tail. Hits a lure like a hammer.",
+      "hint": "Under the giant lily pads and along the roots.",
+      "base_value": 105,
+      "base_weight": 2.5,
+      "min_weight": 0.8,
+      "max_weight": 7.0,
+      "spawn_weight": 22,
+      "spots": {
+        "V": 1.9,
+        "F": 1.2,
+        "M": 0.8,
+        "R": 0.6,
+        "B": 0.4
+      },
+      "time": {
+        "morning": 1.3,
+        "day": 1.2,
+        "evening": 1.0,
+        "night": 0.6
+      },
+      "weather": {
+        "clear": 1.15,
+        "rain": 0.9
+      },
+      "bait": {
+        "river_shrimp": 1.2,
+        "golden_larva": 1.0,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "power": 68,
+        "strength": 1.1,
+        "stamina": 1.0,
+        "marker_speed": 1.15,
+        "zone_drift": 0.35,
+        "surge_power": 1.0,
+        "states": {
+          "calm": 3,
+          "struggle": 4,
+          "surge": 2,
+          "recovery": 2
+        },
+        "state_time": [
+          0.9,
+          1.8
+        ]
+      }
+    },
+    {
+      "id": "arowana",
+      "name": "Silver Arowana",
+      "pond": "delta",
+      "desc": "The 'water monkey' leaps clear of the river to snatch insects from the branches.",
+      "hint": "Flooded roots at dawn, watching the surface.",
+      "base_value": 145,
+      "base_weight": 2.0,
+      "min_weight": 0.8,
+      "max_weight": 6.0,
+      "spawn_weight": 16,
+      "spots": {
+        "F": 2.0,
+        "V": 1.0,
+        "M": 0.7,
+        "B": 0.5,
+        "R": 0.3
+      },
+      "time": {
+        "morning": 1.5,
+        "day": 1.0,
+        "evening": 1.2,
+        "night": 0.6
+      },
+      "weather": {
+        "clear": 1.0,
+        "rain": 1.1
+      },
+      "bait": {
+        "river_shrimp": 1.1,
+        "golden_larva": 1.2,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "power": 78,
+        "strength": 1.1,
+        "stamina": 1.1,
+        "marker_speed": 1.3,
+        "zone_drift": 0.6,
+        "surge_power": 1.1,
+        "states": {
+          "calm": 3,
+          "struggle": 3,
+          "surge": 3,
+          "recovery": 2
+        },
+        "state_time": [
+          0.8,
+          1.6
+        ]
+      }
+    },
+    {
+      "id": "electric_eel",
+      "name": "Electric Eel",
+      "pond": "delta",
+      "desc": "Not an eel at all, but a knifefish that stuns its prey with hundreds of volts.",
+      "hint": "Blackwater and roots after dark. Bring a strong line.",
+      "base_value": 195,
+      "base_weight": 6.0,
+      "min_weight": 1.5,
+      "max_weight": 20.0,
+      "spawn_weight": 10,
+      "spots": {
+        "B": 1.6,
+        "F": 1.3,
+        "M": 0.8,
+        "V": 0.4,
+        "R": 0.2
+      },
+      "time": {
+        "morning": 1.0,
+        "day": 0.6,
+        "evening": 1.3,
+        "night": 1.8
+      },
+      "weather": {
+        "clear": 0.9,
+        "rain": 1.3
+      },
+      "bait": {
+        "river_shrimp": 1.2,
+        "golden_larva": 1.3,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "power": 88,
+        "strength": 1.25,
+        "stamina": 1.2,
+        "marker_speed": 1.25,
+        "zone_drift": 0.8,
+        "surge_power": 1.2,
+        "states": {
+          "calm": 2,
+          "struggle": 4,
+          "surge": 4,
+          "recovery": 1
+        },
+        "state_time": [
+          0.6,
+          1.3
+        ]
+      }
+    },
+    {
+      "id": "goliath_catfish",
+      "name": "Goliath Catfish",
+      "pond": "delta",
+      "desc": "A whiskered giant that roams thousands of kilometres of river. Bigger than an angler.",
+      "hint": "Deep blackwater channels, mostly in the evening.",
+      "base_value": 260,
+      "base_weight": 40.0,
+      "min_weight": 8.0,
+      "max_weight": 150.0,
+      "spawn_weight": 8,
+      "spots": {
+        "B": 2.0,
+        "R": 1.0,
+        "M": 0.6,
+        "F": 0.3
+      },
+      "time": {
+        "morning": 1.0,
+        "day": 0.7,
+        "evening": 1.5,
+        "night": 1.3
+      },
+      "weather": {
+        "clear": 1.0,
+        "rain": 1.2
+      },
+      "bait": {
+        "river_shrimp": 1.1,
+        "golden_larva": 1.4,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "power": 100,
+        "strength": 1.4,
+        "stamina": 1.45,
+        "marker_speed": 0.9,
+        "zone_drift": 0.2,
+        "surge_power": 1.4,
+        "states": {
+          "calm": 5,
+          "struggle": 2,
+          "surge": 3,
+          "recovery": 2
+        },
+        "state_time": [
+          1.5,
+          2.8
+        ]
+      }
+    },
+    {
+      "id": "arapaima",
+      "name": "Arapaima",
+      "pond": "delta",
+      "desc": "An armoured river giant that gulps air at the surface. Its red-edged scales are hard as bone.",
+      "hint": "Only the deepest blackwater, far from the jetty.",
+      "base_value": 360,
+      "base_weight": 60.0,
+      "min_weight": 15.0,
+      "max_weight": 200.0,
+      "spawn_weight": 6,
+      "spots": {
+        "B": 2.4,
+        "V": 0.6,
+        "M": 0.6,
+        "R": 0.4,
+        "F": 0.4
+      },
+      "time": {
+        "morning": 1.2,
+        "day": 1.0,
+        "evening": 1.0,
+        "night": 0.9
+      },
+      "weather": {
+        "clear": 1.1,
+        "rain": 1.0
+      },
+      "bait": {
+        "river_shrimp": 1.2,
+        "golden_larva": 1.5,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "power": 115,
+        "strength": 1.5,
+        "stamina": 1.55,
+        "marker_speed": 1.0,
+        "zone_drift": 0.3,
+        "surge_power": 1.55,
+        "states": {
+          "calm": 4,
+          "struggle": 2,
+          "surge": 3,
+          "recovery": 2
+        },
+        "state_time": [
+          1.3,
+          2.5
+        ]
+      }
+    },
+    {
+      "id": "bluefin_tuna",
+      "name": "Bluefin Tuna",
+      "pond": "trench",
+      "desc": "A warm-blooded torpedo of muscle that crosses whole oceans.",
+      "hint": "Coral edges and the storm swells. Fast by day.",
+      "base_value": 340,
+      "base_weight": 220.0,
+      "min_weight": 40.0,
+      "max_weight": 680.0,
+      "spawn_weight": 30,
+      "spots": {
+        "S": 0.6,
+        "C": 1.3,
+        "X": 1.6,
+        "K": 0.8,
+        "W": 0.7,
+        "A": 0.6
+      },
+      "time": {
+        "morning": 1.2,
+        "day": 1.3,
+        "evening": 1.0,
+        "night": 0.7
+      },
+      "weather": {
+        "clear": 1.1,
+        "rain": 0.9
+      },
+      "bait": {
+        "deep_squid": 1.2,
+        "golden_larva": 1.0,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "power": 125,
+        "strength": 1.3,
+        "stamina": 1.2,
+        "marker_speed": 1.4,
+        "zone_drift": 0.5,
+        "surge_power": 1.2,
+        "states": {
+          "calm": 2,
+          "struggle": 5,
+          "surge": 3,
+          "recovery": 1
+        },
+        "state_time": [
+          0.7,
+          1.5
+        ]
+      }
+    },
+    {
+      "id": "swordfish",
+      "name": "Swordfish",
+      "pond": "trench",
+      "desc": "Slashes through shoals with its flat sword, then sounds into the dark.",
+      "hint": "Storm swells and the drop-off, any time.",
+      "base_value": 450,
+      "base_weight": 180.0,
+      "min_weight": 30.0,
+      "max_weight": 650.0,
+      "spawn_weight": 22,
+      "spots": {
+        "X": 1.9,
+        "A": 1.0,
+        "C": 0.6,
+        "S": 0.3,
+        "K": 0.4,
+        "W": 0.5
+      },
+      "time": {
+        "morning": 1.0,
+        "day": 1.0,
+        "evening": 1.0,
+        "night": 1.2
+      },
+      "weather": {
+        "clear": 1.0,
+        "rain": 1.2
+      },
+      "bait": {
+        "deep_squid": 1.2,
+        "golden_larva": 1.1,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "power": 140,
+        "strength": 1.35,
+        "stamina": 1.3,
+        "marker_speed": 1.35,
+        "zone_drift": 0.7,
+        "surge_power": 1.35,
+        "states": {
+          "calm": 3,
+          "struggle": 3,
+          "surge": 4,
+          "recovery": 2
+        },
+        "state_time": [
+          0.8,
+          1.6
+        ]
+      }
+    },
+    {
+      "id": "anglerfish",
+      "name": "Anglerfish",
+      "pond": "trench",
+      "desc": "Dangles a glowing lure in the blackness and swallows whatever comes to look.",
+      "hint": "The shipwreck and the abyss, mostly at night.",
+      "base_value": 560,
+      "base_weight": 4.0,
+      "min_weight": 0.5,
+      "max_weight": 15.0,
+      "spawn_weight": 16,
+      "spots": {
+        "A": 1.6,
+        "W": 1.9,
+        "K": 0.6,
+        "C": 0.3
+      },
+      "time": {
+        "morning": 1.0,
+        "day": 0.5,
+        "evening": 1.3,
+        "night": 2.0
+      },
+      "weather": {
+        "clear": 1.0,
+        "rain": 1.1
+      },
+      "bait": {
+        "deep_squid": 1.3,
+        "golden_larva": 1.2,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "power": 155,
+        "strength": 1.2,
+        "stamina": 1.35,
+        "marker_speed": 0.9,
+        "zone_drift": 0.25,
+        "surge_power": 1.3,
+        "states": {
+          "calm": 5,
+          "struggle": 2,
+          "surge": 2,
+          "recovery": 2
+        },
+        "state_time": [
+          1.4,
+          2.6
+        ]
+      }
+    },
+    {
+      "id": "coelacanth",
+      "name": "Coelacanth",
+      "pond": "trench",
+      "desc": "A living fossil, thought extinct for 66 million years. Walks the reef on fleshy fins.",
+      "hint": "Kelp forest and the wreck. Patience.",
+      "base_value": 700,
+      "base_weight": 50.0,
+      "min_weight": 15.0,
+      "max_weight": 95.0,
+      "spawn_weight": 10,
+      "spots": {
+        "K": 1.9,
+        "W": 1.2,
+        "A": 0.8,
+        "C": 0.5
+      },
+      "time": {
+        "morning": 1.0,
+        "day": 1.0,
+        "evening": 1.2,
+        "night": 1.4
+      },
+      "weather": {
+        "clear": 1.0,
+        "rain": 1.0
+      },
+      "bait": {
+        "deep_squid": 1.2,
+        "golden_larva": 1.4,
+        "monster_chum": 1.0
+      },
+      "fight": {
+        "power": 170,
+        "strength": 1.4,
+        "stamina": 1.5,
+        "marker_speed": 1.0,
+        "zone_drift": 0.3,
+        "surge_power": 1.4,
+        "states": {
+          "calm": 5,
+          "struggle": 3,
+          "surge": 2,
+          "recovery": 2
+        },
+        "state_time": [
+          1.4,
+          2.6
+        ]
+      }
+    },
+    {
+      "id": "kraken",
+      "name": "The Kraken",
+      "pond": "trench",
+      "desc": "The sailors' nightmare. Its arms could drag a ship under. Few have hooked it; none have forgotten.",
+      "hint": "Only the abyss at the far edge. It rises at night and in storms.",
+      "base_value": 1500,
+      "base_weight": 300.0,
+      "min_weight": 80.0,
+      "max_weight": 1200.0,
+      "spawn_weight": 2.5,
+      "spots": {
+        "A": 2.5,
+        "W": 0.9,
+        "X": 0.6
+      },
+      "time": {
+        "morning": 1.0,
+        "day": 0.6,
+        "evening": 1.2,
+        "night": 1.7
+      },
+      "weather": {
+        "clear": 0.9,
+        "rain": 1.5
+      },
+      "bait": {
+        "deep_squid": 1.3,
+        "monster_chum": 1.0,
+        "golden_larva": 1.3
+      },
+      "fight": {
+        "power": 190,
+        "strength": 1.5,
+        "stamina": 1.55,
+        "marker_speed": 1.15,
+        "zone_drift": 0.65,
+        "surge_power": 1.6,
+        "states": {
+          "calm": 3,
+          "struggle": 3,
+          "surge": 4,
+          "recovery": 2
+        },
+        "state_time": [
+          0.9,
+          1.9
+        ]
+      }
+    },
+    {
+      "id": "megalodon",
+      "name": "Megalodon",
+      "pond": "trench",
+      "desc": "The giant shark of the deep past, somehow still circling the trench. The ultimate catch.",
+      "hint": "The abyss and the storm swells. Any hour - if you dare.",
+      "base_value": 2200,
+      "base_weight": 2500.0,
+      "min_weight": 600.0,
+      "max_weight": 9000.0,
+      "spawn_weight": 2.0,
+      "spots": {
+        "A": 2.0,
+        "X": 2.0
+      },
+      "time": {
+        "morning": 1.0,
+        "day": 1.0,
+        "evening": 1.0,
+        "night": 1.0
+      },
+      "weather": {
+        "clear": 1.0,
+        "rain": 1.2
+      },
+      "bait": {
+        "deep_squid": 1.2,
+        "monster_chum": 1.0,
+        "golden_larva": 1.3
+      },
+      "fight": {
+        "power": 210,
+        "strength": 1.6,
+        "stamina": 1.65,
+        "marker_speed": 1.2,
+        "zone_drift": 0.5,
+        "surge_power": 1.75,
+        "states": {
+          "calm": 3,
+          "struggle": 3,
+          "surge": 4,
+          "recovery": 1
+        },
+        "state_time": [
+          0.9,
+          1.8
+        ]
+      }
+    }
+  ]
+}

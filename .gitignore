@@ -1,0 +1,12 @@
+# Godot caches and imports
+.godot/
+pondlight/.godot/
+*.import.tmp
+# local builds (the web build for GitHub Pages lives in docs/)
+build/
+release/raw/
+# local tooling
+.claude/
+skills-lock.json
+__pycache__/
+*.pyc

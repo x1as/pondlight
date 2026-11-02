@@ -1,0 +1,158 @@
+{
+  "fish_bluegill.png": {
+    "asset_id": "3709d88c-05c4-4075-bfe7-6a93141e361c",
+    "sha12": "edcec2a8b656",
+    "label": "fish_bluegill"
+  },
+  "fish_river_perch.png": {
+    "asset_id": "d4a228ca-d7d9-4a0c-b46a-202ae534bdd3",
+    "sha12": "53cdef871952",
+    "label": "fish_river_perch"
+  },
+  "fish_silver_carp.png": {
+    "asset_id": "4f093783-a37d-4b2a-8318-d8be23e80221",
+    "sha12": "878564ecb58e",
+    "label": "fish_silver_carp"
+  },
+  "fish_golden_tench.png": {
+    "asset_id": "5bacf0b5-e0ea-46c1-93f9-da72a05caf18",
+    "sha12": "2318c1b3f1f7",
+    "label": "fish_golden_tench"
+  },
+  "fish_moonlit_eel.png": {
+    "asset_id": "aed76803-5afa-4dc8-804a-37179cca8b5f",
+    "sha12": "9c3e2fc94373",
+    "label": "fish_moonlit_eel"
+  },
+  "fish_willow_pike.png": {
+    "asset_id": "03a3e90b-8aec-4f15-ad45-870b26733fd8",
+    "sha12": "24745d07da09",
+    "label": "fish_willow_pike"
+  },
+  "reel.png": {
+    "asset_id": "e68ac078-a242-4feb-bcc1-3b652627fb0d",
+    "sha12": "6a0fbb345113",
+    "label": "reel"
+  },
+  "bobber.png": {
+    "asset_id": "d8eced1a-dfba-420e-830f-55d81c61d428",
+    "sha12": "87011f02bd1f",
+    "label": "bobber"
+  },
+  "trophy_gold.png": {
+    "asset_id": "6fc5cb9f-c277-411e-bb66-07c38cf63dcc",
+    "sha12": "610e537b3b6f",
+    "label": "trophy_gold"
+  },
+  "frog_guide.png": {
+    "asset_id": "fd3d0ce9-0b50-4152-838c-53a03ce3cc10",
+    "sha12": "c59315675e52",
+    "label": "frog_guide"
+  },
+  "fish_ice_minnow.png": {
+    "asset_id": "4746fd79-43ac-4806-889e-5656a1e48181",
+    "sha12": "381e9b1c0c35",
+    "label": "fish_ice_minnow"
+  },
+  "fish_arctic_char.png": {
+    "asset_id": "008eb815-b293-4ce4-9607-231294b62b73",
+    "sha12": "447cbaa9ff03",
+    "label": "fish_arctic_char"
+  },
+  "fish_snow_whitefish.png": {
+    "asset_id": "fe2b61f9-a301-4aa3-b250-e0a7e57a4054",
+    "sha12": "94128cfcc79a",
+    "label": "fish_snow_whitefish"
+  },
+  "fish_glass_pike.png": {
+    "asset_id": "f3b620b8-0a70-4ca8-b120-497f431f713d",
+    "sha12": "a088eb558705",
+    "label": "fish_glass_pike"
+  },
+  "fish_aurora_salmon.png": {
+    "asset_id": "85a8b3fb-4ea3-46f3-bdda-75557846b2ac",
+    "sha12": "3bd8535f4496",
+    "label": "fish_aurora_salmon"
+  },
+  "fish_frost_sturgeon.png": {
+    "asset_id": "3a5b8753-dcca-40ad-a578-024790d0c6f0",
+    "sha12": "d43d4c5df239",
+    "label": "fish_frost_sturgeon"
+  },
+  "fish_piranha.png": {
+    "asset_id": "d2bc1d50-7e87-40a4-b0cb-c74219474c55",
+    "sha12": "cda1cc4527a7",
+    "label": "fish_piranha"
+  },
+  "fish_peacock_bass.png": {
+    "asset_id": "2d748a7b-aa7b-4fdd-a24e-d4ae109750d0",
+    "sha12": "26b067ee474b",
+    "label": "fish_peacock_bass"
+  },
+  "fish_arowana.png": {
+    "asset_id": "13f653da-22cf-45cd-88b1-2792efe35b4c",
+    "sha12": "cc1d163c9bd6",
+    "label": "fish_arowana"
+  },
+  "fish_electric_eel.png": {
+    "asset_id": "59a3cd9e-8727-449a-ae31-aae87a109f09",
+    "sha12": "4882496ec306",
+    "label": "fish_electric_eel"
+  },
+  "fish_goliath_catfish.png": {
+    "asset_id": "94120882-458d-4ded-bf82-3482b80198d1",
+    "sha12": "eca043a8d487",
+    "label": "fish_goliath_catfish"
+  },
+  "fish_arapaima.png": {
+    "asset_id": "a2fa30af-093e-492f-aaa9-7278c3e29182",
+    "sha12": "acc577569847",
+    "label": "fish_arapaima"
+  },
+  "fish_bluefin_tuna.png": {
+    "asset_id": "f063a62b-3507-42fa-9eb4-11557ea14604",
+    "sha12": "ac1908a16217",
+    "label": "fish_bluefin_tuna"
+  },
+  "fish_swordfish.png": {
+    "asset_id": "b82a61b4-b25d-469e-9c08-4b7bb052c327",
+    "sha12": "504e91e630ad",
+    "label": "fish_swordfish"
+  },
+  "fish_anglerfish.png": {
+    "asset_id": "10eeb219-82af-491c-b3a6-47f5dc89027f",
+    "sha12": "384690e1c081",
+    "label": "fish_anglerfish"
+  },
+  "fish_coelacanth.png": {
+    "asset_id": "6afec893-601e-4579-888c-c957f7594a1b",
+    "sha12": "f38d91ea2603",
+    "label": "fish_coelacanth"
+  },
+  "fish_kraken.png": {
+    "asset_id": "fb1cf93d-4640-4cc1-b853-68eefbd767a9",
+    "sha12": "929c57d50d4a",
+    "label": "fish_kraken"
+  },
+  "fish_megalodon.png": {
+    "asset_id": "d759b13e-b406-44da-9ed6-c865c963d06c",
+    "sha12": "c0d7c5097329",
+    "label": "fish_megalodon"
+  },
+  "treasure_chest.png": {
+    "asset_id": "739bcd8e-6bb1-4d52-b5f7-cf4c67ec21b0",
+    "sha12": "87d248d48e5c",
+    "label": "treasure_chest"
+  },
+  "bobber_bob.png": {
+    "asset_id": "a0c50c7d-93cf-4ecb-9b95-85cad525b2f9",
+    "sha12": "21d9b02e7ef8",
+    "label": "bobber_bob_loop",
+    "frames": 6,
+    "frame_size": [
+      11,
+      18
+    ],
+    "fps": 8
+  }
+}

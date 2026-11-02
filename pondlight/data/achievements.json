@@ -1,0 +1,308 @@
+{
+  "achievements": [
+    {
+      "id": "FIRST_CATCH",
+      "name": "First Catch",
+      "desc": "Catch your first fish.",
+      "type": "catches",
+      "target": 1,
+      "tier": "bronze"
+    },
+    {
+      "id": "CATCH_100",
+      "name": "Pond Regular",
+      "desc": "Catch 100 fish.",
+      "type": "catches",
+      "target": 100,
+      "tier": "silver"
+    },
+    {
+      "id": "CATCH_500",
+      "name": "Old Hand",
+      "desc": "Catch 500 fish.",
+      "type": "catches",
+      "target": 500,
+      "tier": "gold"
+    },
+    {
+      "id": "FIRST_RARE",
+      "name": "Something Shiny",
+      "desc": "Catch a Rare fish.",
+      "type": "rarity",
+      "target": 2,
+      "tier": "bronze"
+    },
+    {
+      "id": "FIRST_EPIC",
+      "name": "Epic Tale",
+      "desc": "Catch an Epic fish.",
+      "type": "rarity",
+      "target": 3,
+      "tier": "silver"
+    },
+    {
+      "id": "FIRST_LEGENDARY",
+      "name": "Legend of the Pond",
+      "desc": "Catch a Legendary fish.",
+      "type": "rarity",
+      "target": 4,
+      "tier": "gold"
+    },
+    {
+      "id": "PRISMATIC",
+      "name": "Through the Prism",
+      "desc": "Catch a Prismatic fish.",
+      "type": "prismatic",
+      "target": 1,
+      "tier": "silver"
+    },
+    {
+      "id": "PERFECT_50",
+      "name": "Bullseye Angler",
+      "desc": "Land 50 perfect casts.",
+      "type": "perfect_casts",
+      "target": 50,
+      "tier": "silver"
+    },
+    {
+      "id": "COMBO_8",
+      "name": "In the Rhythm",
+      "desc": "Reach an x8 strike combo in a fight.",
+      "type": "combo",
+      "target": 8,
+      "tier": "silver"
+    },
+    {
+      "id": "WILLOW_COMPLETE",
+      "name": "Willow Naturalist",
+      "desc": "Discover all six Willow Pond species.",
+      "type": "pond_species",
+      "target": 6,
+      "tier": "bronze",
+      "pond": "willow"
+    },
+    {
+      "id": "FROST_COMPLETE",
+      "name": "Ice Reader",
+      "desc": "Discover all six Frostmere species.",
+      "type": "pond_species",
+      "target": 6,
+      "tier": "silver",
+      "pond": "frostmere"
+    },
+    {
+      "id": "DELTA_COMPLETE",
+      "name": "River Explorer",
+      "desc": "Discover all six Emerald Delta species.",
+      "type": "pond_species",
+      "target": 6,
+      "tier": "silver",
+      "pond": "delta"
+    },
+    {
+      "id": "TRENCH_COMPLETE",
+      "name": "Abyss Diver",
+      "desc": "Discover all six Leviathan Trench species.",
+      "type": "pond_species",
+      "target": 6,
+      "tier": "gold",
+      "pond": "trench"
+    },
+    {
+      "id": "UNLOCK_TRENCH",
+      "name": "Edge of the World",
+      "desc": "Unlock the Leviathan Trench.",
+      "type": "unlock",
+      "target": 1,
+      "tier": "silver",
+      "pond": "trench"
+    },
+    {
+      "id": "MASTER_10",
+      "name": "Specialist",
+      "desc": "Raise any species to mastery level 10.",
+      "type": "mastery",
+      "target": 10,
+      "tier": "silver"
+    },
+    {
+      "id": "MASTER_20",
+      "name": "True Master",
+      "desc": "Raise any species to mastery level 20.",
+      "type": "mastery",
+      "target": 20,
+      "tier": "gold"
+    },
+    {
+      "id": "FULL_GEAR",
+      "name": "Starforged",
+      "desc": "Upgrade every piece of equipment to tier 10.",
+      "type": "full_gear",
+      "target": 10,
+      "tier": "gold"
+    },
+    {
+      "id": "TALENT_50",
+      "name": "Seasoned Angler",
+      "desc": "Learn 50 talent levels.",
+      "type": "talents",
+      "target": 50,
+      "tier": "silver"
+    },
+    {
+      "id": "EARN_250K",
+      "name": "Fishmonger's Fortune",
+      "desc": "Earn 250,000 coins from fish.",
+      "type": "earned",
+      "target": 250000,
+      "tier": "gold"
+    },
+    {
+      "id": "STREAK_10",
+      "name": "On Fire",
+      "desc": "Catch 10 fish in a row without losing one.",
+      "type": "streak",
+      "target": 10,
+      "tier": "silver"
+    },
+    {
+      "id": "GOLDEN_SPOT",
+      "name": "Golden Moment",
+      "desc": "Catch a fish on a golden spot.",
+      "type": "golden",
+      "target": 1,
+      "tier": "bronze"
+    },
+    {
+      "id": "TREASURE_5",
+      "name": "Treasure Hunter",
+      "desc": "Fish up 5 treasure chests.",
+      "type": "chests",
+      "target": 5,
+      "tier": "bronze"
+    },
+    {
+      "id": "HIGH_TIDE",
+      "name": "High Tide",
+      "desc": "Cash out a Tide of Fortune at x4 or more.",
+      "type": "tide",
+      "target": 4,
+      "tier": "silver"
+    },
+    {
+      "id": "CATCH_KRAKEN",
+      "name": "Release the Kraken",
+      "desc": "Catch the Kraken.",
+      "type": "species",
+      "target": 1,
+      "tier": "gold",
+      "fish": "kraken"
+    },
+    {
+      "id": "CATCH_MEGALODON",
+      "name": "Jaws of the Deep",
+      "desc": "Catch the Megalodon.",
+      "type": "species",
+      "target": 1,
+      "tier": "gold",
+      "fish": "megalodon"
+    },
+    {
+      "id": "PONDLIGHT_MASTER",
+      "name": "Master of Pondlight",
+      "desc": "Collect all 25 trophies.",
+      "type": "all",
+      "target": 25,
+      "tier": "platinum"
+    }
+  ],
+  "daily_templates": [
+    {
+      "type": "catch_any",
+      "text": "Catch {n} fish",
+      "min": 6,
+      "max": 12,
+      "reward_per": 12
+    },
+    {
+      "type": "catch_rarity",
+      "text": "Catch {n} fish of Rare or better",
+      "min": 1,
+      "max": 2,
+      "rarity": 2,
+      "reward_per": 70
+    },
+    {
+      "type": "perfect_cast",
+      "text": "Land {n} perfect casts",
+      "min": 3,
+      "max": 6,
+      "reward_per": 18
+    },
+    {
+      "type": "earn",
+      "text": "Earn {n} coins from sales",
+      "min": 150,
+      "max": 400,
+      "reward_per": 0.25
+    },
+    {
+      "type": "record",
+      "text": "Set {n} new weight record",
+      "min": 1,
+      "max": 1,
+      "reward_per": 90
+    }
+  ],
+  "order_templates": [
+    {
+      "type": "catch_species",
+      "text": "Catch {n} {fish}",
+      "min": 2,
+      "max": 4,
+      "reward": 1.0
+    },
+    {
+      "type": "catch_rarity",
+      "text": "Catch {n} fish of Rare or better",
+      "min": 1,
+      "max": 3,
+      "reward": 2.0
+    },
+    {
+      "type": "catch_spot",
+      "text": "Catch {n} fish at {spot}",
+      "min": 2,
+      "max": 4,
+      "reward": 1.0
+    },
+    {
+      "type": "perfect_cast",
+      "text": "Land {n} perfect casts",
+      "min": 2,
+      "max": 5,
+      "reward": 0.6
+    },
+    {
+      "type": "combo",
+      "text": "Reach an x{n} combo in one fight",
+      "min": 4,
+      "max": 7,
+      "reward": 1.5
+    },
+    {
+      "type": "streak",
+      "text": "Catch {n} fish in a row",
+      "min": 3,
+      "max": 6,
+      "reward": 1.0
+    },
+    {
+      "type": "tide",
+      "text": "Win {n} Tide of Fortune wave",
+      "min": 1,
+      "max": 1,
+      "reward": 1.5
+    }
+  ]
+}
